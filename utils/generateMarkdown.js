@@ -1,84 +1,99 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// // TODO: Create a function that returns a license badge based on which license is passed in
+// // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const apacheBadge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   const mitBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   const iscBadge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
-  const mozzillaBadge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]"
+  const mozzillaBadge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
 
   switch (license) {
-    case license === "Apache 2.0":
+    case  "Apache 2.0":
       return apacheBadge;
-    case license === "MIT":
+      break;
+    case "MIT":
       return mitBadge;
-    case license === "ISC":
+      break;
+    case "ISC":
       return iscBadge;
-    case license === "Mozilla Public License 2.0":
+      break;
+    case "Mozilla Public License 2.0":
       return mozzillaBadge;
+      break;
     default: 
     return "Unlicensed";
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  const mozillaLink = "![mozillaLink](https://opensource.org/licenses/MPL-2.0)"
-}
+// // TODO: Create a function that returns the license link
+// // If there is no license, return an empty string
+// function renderLicenseLink(license) {
+//   const mozillaLink = "![mozillaLink](https://opensource.org/licenses/MPL-2.0)"
+// }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+// // TODO: Create a function that returns the license section of README
+// // If there is no license, return an empty string
+// function renderLicenseSection(license) {}
 
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return
-`# ${data.title}
+const generateMarkdown = answers => {
+  console.log(answers);
+  return `
+  # ${answers.title}
 
-    ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(answers.license)}
   
 ## Description
-    ${data.description}
+    ${answers.description}
 
 ## Table of Contents
-
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Tests](#tests)
-    * [Questions](#questions)
-    * [Contribution](#contribution)
-  
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [Contribution](#contribution)
+ 
 ## Installation
 
   To install dependencies, run the following:
 
-    \`
-    ${data.installation}
-    \`
+    
+    ${answers.installation}
+    
 
 ## Usage
 
-    ${data.usage}
+    ${answers.usage}
     
 ## License
   Copyright (c) 
-  ${renderLicenseBadge(data.license)}
-  ${data.license}
+  ${answers.license}
   All rights reserved.
 
 ## Test
-  ${data.test}
+  ${answers.test}
 
 ## Question
 Any question related to the project, feel free to contact:
-  ${data.email}
+  ${answers.email}
 
 ## Contribution
-  ${data.contribution}
+  ${answers.contribute}
 
 `;
-}
+};
+
+const mockData = {
+  title: 'title',
+  description: 'description',
+  installation: 'installation',
+  usage: 'usage',
+  license: 'license',
+  license: 'license',
+  test: 'test',
+  email: 'email',
+  contribute: 'contribute',
+};
 
 module.exports = generateMarkdown;

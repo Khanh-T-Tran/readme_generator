@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require('fs');  // The built in file system module
-const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown");
+const { json } = require("stream/consumers");
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -24,7 +25,7 @@ const questions = [
             "ISC",
             "Unlicensed",
             "Mozilla Public License 2.0"
-            
+
         ]
     },
     {
@@ -35,38 +36,43 @@ const questions = [
     },
     {
         type: "input",
+        message: "What is the usage of th app?",
+        name: "usage",
+    },
+    {
+        type: "input",
         message: "What command should be run to run tests?",
-        name: "tests",
+        name: "test",
         default: "npm run test"
     },
     {
         type: "input",
-        message: "How does the user report issues?",
-        name: "reportIssues"
+        message: "Any question related to the project, feel free to contact:",
+        name: "email"
     },
     {
         type: "input",
         message: "What does the user need to know about contributing to the repository?",
         name: "contribute"
     },
-    
+
 ];
 
-
-// TODO: Create a function to write README file
-
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, generateMarkdown(data) )
-    return 
-}
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then(answers => {
-        writeToFile("./README.md",answers)
-    })  
+        .then(answers => {
+            fs.writeFile("./demo/README.md", generateMarkdown(answers), err => {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log("README file successfully created!");
+                }
+            });
+        })
 }
+
 
 // Function call to initialize app
 init();

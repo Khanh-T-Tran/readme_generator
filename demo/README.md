@@ -1,10 +1,9 @@
 
-  # khanh
-
+# Professional Readme file generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
-    khanh
+    Help developer build readmefile in a simple standard
 
 ## Table of Contents
   * [Installation](#installation)
@@ -16,27 +15,26 @@
  
 ## Installation
 
-  To install dependencies, run the following:
-
-    
+  To install dependencies, run the following: 
     npm i
     
-
 ## Usage
-
-    test
+    run node index on your terminal
     
-## License
-  Copyright (c) 
-  MIT
-  All rights reserved.
+## License    
+    MIT
 
 ## Test
-  npm run test
+    npm run test
 
 ## Question
+undefined
+<br />
+Find me on GitHub: [Khanh-T-Tran](https://github.com/Khanh-T-Tran)<br />
+<br />
+
 Any question related to the project, feel free to contact:
-  email
+  khanhtuantran@yahoo.com
 
 ## Contribution
   email

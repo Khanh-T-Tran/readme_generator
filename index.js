@@ -36,7 +36,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "What is the usage of th app?",
+        message: "What is the usage of the app?",
         name: "usage",
     },
     {
@@ -44,6 +44,11 @@ const questions = [
         message: "What command should be run to run tests?",
         name: "test",
         default: "npm run test"
+    },
+    {
+        type: "input",
+        name: "username",
+        message: "Please enter your GitHub username: "
     },
     {
         type: "input",

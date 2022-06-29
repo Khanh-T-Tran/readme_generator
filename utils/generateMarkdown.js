@@ -76,8 +76,6 @@ const generateMarkdown = answers => {
   * [Contribution](#contribution)
  
 ## Installation
-
-  To install dependencies, run the following: 
     ${answers.installation}
     
 ## Usage
@@ -90,10 +88,10 @@ const generateMarkdown = answers => {
     ${answers.test}
 
 ## Question
-${answers.questions}
-<br />
+
+
 Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
-<br />
+
 
 Any question related to the project, feel free to contact:
   ${answers.email}

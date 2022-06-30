@@ -1,9 +1,9 @@
 
-# Professional Readme File Generator
+# Professional Reame Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
-    Professional Readme File Generator
+    Help user build Readme file in a fast and simple way
 
 ## Table of Contents
   * [Installation](#installation)
@@ -17,7 +17,7 @@
     npm i
     
 ## Usage
-    Professional Readme File Generator
+    Run node index inside node terminal to invoke the application.
     
 ## License    
     MIT
@@ -28,12 +28,12 @@
 ## Question
 
 
-Find me on GitHub: [KhanhTran](https://github.com/KhanhTran)<br />
+Find me on GitHub: [Khanh-T-Tran](https://github.com/Khanh-T-Tran)<br />
 
 
 Any question related to the project, feel free to contact:
-  khanhtran@yahoo.com
+  khanhtuantran@yahoo.com
 
 ## Contribution
-  Professional Readme File Generator
+  Please contact creator through Github.
 

@@ -60,5 +60,5 @@ Any question related to the project, feel free to contact:
   Please contact creator through Github.
 
 ## Video demo
-
+![Demo video](https://github.com/Khanh-T-Tran/readme_generator/blob/3d744a1065a70230016e6d23ba4e2f0d22e693d6/demo/Demo_video.gif)
 

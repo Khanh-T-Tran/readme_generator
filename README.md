@@ -57,7 +57,8 @@ Any question related to the project, feel free to contact:
   khanhtuantran@yahoo.com
 
 ## Contribution
-  Please contact creator through Github.
+  Please contact creator through Github.<br>
+  This assignment was nicely done with the help and explaination of TAs Scott, Luigi, Matthew and a good instruction of my instructor Emmanuel (Manny).
 
 ## Video demo
 ![Demo video](https://github.com/Khanh-T-Tran/readme_generator/blob/3d744a1065a70230016e6d23ba4e2f0d22e693d6/demo/Demo_video.gif)

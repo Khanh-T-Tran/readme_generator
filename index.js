@@ -1,9 +1,10 @@
-// TODO: Include packages needed for this application
+// get inquirer and fs file system and declare in variables
 const inquirer = require("inquirer");
 const fs = require('fs');  // The built in file system module
 const generateMarkdown = require("./utils/generateMarkdown");
 const { json } = require("stream/consumers");
-// TODO: Create an array of questions for user input
+
+// Array of questions to use with inquirer
 const questions = [
     {
         type: 'input',
@@ -63,8 +64,7 @@ const questions = [
 
 ];
 
-
-// TODO: Create a function to initialize app
+// function to prompt user to returns answers object
 function init() {
     inquirer.prompt(questions)
         .then(answers => {
@@ -78,6 +78,5 @@ function init() {
         })
 }
 
-
-// Function call to initialize app
+// Function call to initialize application/program
 init();

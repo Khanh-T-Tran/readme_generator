@@ -31,7 +31,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Tests](#tests)
+  * [Test](#test)
   * [Questions](#questions)
   * [Contribution](#contribution)
  

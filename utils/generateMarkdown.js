@@ -55,7 +55,7 @@ const generateMarkdown = answers => {
     ${answers.test}
 
 ## Questions
-
+    ${answers.questions}
 
 Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 

@@ -55,12 +55,12 @@ const generateMarkdown = answers => {
     ${answers.test}
 
 ## Questions
-    ${answers.questions}
+    
 
 Find me on GitHub: [${answers.username}](https://github.com/${answers.username})<br />
 
 Any question related to the project, feel free to contact:<br />
-  - [khanhtuantran@outlook.com](mailto:khanhtuantran@outlook.com)
+  - [khanhtuantran@outlook.com](mailto:${answers.questions})
   - [My github](https://github.com/Khanh-T-Tran)
 
 ## Contribution

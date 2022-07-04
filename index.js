@@ -54,7 +54,7 @@ const questions = [
     {
         type: "input",
         message: "Any question related to the project, feel free to contact:",
-        name: "email"
+        name: "questions"
     },
     {
         type: "input",

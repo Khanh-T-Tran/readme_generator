@@ -1,9 +1,9 @@
 
-# Professional Reame Generator
+# Professional readme generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 ## Description
-    Help user build Readme file in a fast and simple way
+    Help user build readme file in a fast and responsive way.
 
 ## User Story
     AS A developer
@@ -47,19 +47,20 @@
 ## Test
     npm run test
 
-## Question
-
+## Questions
+    
 
 Find me on GitHub: [Khanh-T-Tran](https://github.com/Khanh-T-Tran)<br />
 
-
-Any question related to the project, feel free to contact:
-  khanhtuantran@yahoo.com
+Any question related to the project, feel free to contact:<br />
+  - [khanhtuantran@outlook.com](mailto:khanhtuantran@gmail.com)
+  - [My github](https://github.com/Khanh-T-Tran)
 
 ## Contribution
   Please contact creator through Github.<br>
   This assignment was nicely done with the help and explaination of TAs Scott, Luigi, Matthew and a good instruction of my instructor Emmanuel (Manny).
-
+  
 ## Video demo
 ![Demo video](https://github.com/Khanh-T-Tran/readme_generator/blob/3d744a1065a70230016e6d23ba4e2f0d22e693d6/demo/Demo_video.gif)
+
 
